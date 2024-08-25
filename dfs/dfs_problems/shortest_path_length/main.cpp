@@ -22,7 +22,7 @@ int main(){
         cin >> u >> v;
         adj[u].push_back(v);
     }
-    dfs(1,7,0); // for example lets get the shortest length of a path from 1 to 7
+    dfs(1,7,0); // for example let's get the shortest length of a path from 1 to 7
     cout << ans << endl;
     return 0;
 }
